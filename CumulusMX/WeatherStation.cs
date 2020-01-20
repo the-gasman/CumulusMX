@@ -1714,6 +1714,7 @@ namespace CumulusMX
 						CreateWxnowFile();
 					}
 				}
+				else cumulus.LogMessage("Data logging disabled due to insufficient sensors / data.");
 			}
 		}
 
